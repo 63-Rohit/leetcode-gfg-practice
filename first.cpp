@@ -1,6 +1,6 @@
 // Que 1)Add digit
 // ex 24=2+4=6ans
-// ex 635=6+3+5=14ans
+// ex 635=6+3+5=14=1+4=5ans
 // #include<iostream>
 // using namespace std;
 // int addDigit(int n)
