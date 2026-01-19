@@ -1,13 +1,17 @@
-// 🔹 Example
+// Example: Remove N-th Node from the End
+// Input
 
-// Linked list: 21 → 12 → 56 → 10
+// Linked List:
+// 21 → 12 → 56 → 10 
 
-// 2nd node from the end is 56
+// N = 2 (remove 2nd node from the end)
 
-// Delete 56
+// Final Linked List
+// 21 → 12 →  10 
 
-// Output
-// 21 12 10
+
+// Node Deleted => 56
+
 
 #include <iostream>
 using namespace std;
@@ -79,3 +83,7 @@ int main()
         temp=temp->next;
     }
 }
+
+// Time Complexity: O(N)
+
+// Space Complexity: O(1)
